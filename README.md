@@ -1,110 +1,58 @@
-# Portfolio Website
+# Portfolio Website - Ajit Singh
 
-This is Sushant Sharma's professional portfolio website showcasing AI research engineering and full stack development skills.
+This is the personal portfolio website of **Ajit Singh**, a Full-Stack Developer and Software Engineer, built to showcase professional experience, projects, and technical skills.
 
-## Features
+## 🚀 Overview
 
-- **Modern Design**: Sky blue gradient theme with dark background
-- **Responsive**: Mobile-first responsive design
-- **Interactive**: Smooth animations, typing effects, and hover states
-- **Accessibility**: Proper ARIA labels and keyboard navigation
-- **Performance**: Optimized loading and smooth transitions
+The portfolio is designed to be modern, responsive, and performance-optimized. It features a dark-themed UI with smooth animations and interactive elements.
 
-## 📁 File Structure
+### Key Features
+- **Responsive Design**: Fully adaptable to mobile, tablet, and desktop screens.
+- **Dynamic Content**: Sections for Experience, Projects, Skills, and Education.
+- **Interactive UI**: Custom cursor, loading animations, and hover effects.
+- **Contact Form**: Integrated functional contact form (requires backend configuration).
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: Custom CSS with CSS Variables for theming
+- **Icons**: Font Awesome 6.0
+- **Fonts**: Google Fonts (Outfit, Inter)
+
+## 📂 Project Structure
 
 ```
-portfoliomain/
-├── index.html          # Main HTML file
-├── main.js             # JavaScript functionality
-├── style.css           # CSS styles (fixed)
-├── assets/             # Assets directory
-│   └── resume.txt      # Resume placeholder
-└── README.md           # This file
+/
+├── assets/           # Images, PDF resume, and other static assets
+├── css/
+│   ├── style.css     # Main stylesheet
+│   └── loaders.css   # Loading animation styles
+├── js/
+│   └── main.js       # Main JavaScript logic (animations, interactions)
+├── index.html        # Main HTML file
+└── README.md         # Project documentation
 ```
 
-## 🔧 How to Run
+## 🔧 Setup & Usage
 
-### Option 1: Local Web Server (Recommended)
-```bash
-cd portfoliomain
-python3 -m http.server 8000
-```
-Then open http://localhost:8000
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/AjitSingh-Gi1/Portfolio.git
+    ```
+2.  **Open `index.html`** in your browser to view the site locally.
 
-### Option 2: Direct File Access
-Open `index.html` directly in a web browser, though some features may not work due to CORS restrictions.
+## 📝 Customization
 
-## Customization
+To adapt this portfolio for your own use:
+1.  Update `index.html` with your personal details.
+2.  Replace `assets/myresume.pdf` with your actual resume PDF.
+3.  Modify images in the `assets/` folder as needed.
 
-### Colors
-The website uses CSS custom properties (variables) for easy theming:
-- `--sky-blue-1`: #87CEEB (Light sky blue)
-- `--sky-blue-2`: #4A90E2 (Medium sky blue)
-- `--sky-blue-3`: #2E86AB (Dark sky blue)
-- Primary background: #0a0a0a (Very dark)
+## 📬 Contact
 
-### Content
-All content is in the HTML file and can be easily updated:
-- Personal information in the hero section
-- Project details in the projects section
-- Experience and education information
-
-## Browser Support
-
--  Chrome/Chromium (recommended)
--  Firefox
--  Safari
--  Edge
--  Internet Explorer (limited support)
-
-## Technologies Used
-
-- **HTML5**: Semantic markup and accessibility
-- **CSS3**: Modern styling with variables, grid, flexbox
-- **JavaScript**: Vanilla JS for interactivity
-- **Font Awesome**: Icons
-- **Google Fonts**: Inter and JetBrains Mono fonts
-
-## Resume
-
-The website includes download links for the resume. Currently points to `assets/myresume.pdf` . Replace this with an actual PDF resume:
-
-```bash
-# Replace the placeholder with actual resume
-cp your-resume.pdf assets/resume.pdf
-```
-
-## SEO & Meta Tags
-
-The website includes comprehensive meta tags for:
-- Social media sharing (Open Graph, Twitter)
-- Search engine optimization
-- Structured data (JSON-LD)
-
-## Deployment
-
-The website is ready for deployment to any static hosting service:
-- GitHub Pages
-- Netlify
-- Vercel
-- AWS S3
-- Any web server
-
-## Tips
-
-1. **Performance**: The website loads quickly with optimized assets
-2. **Mobile**: Fully responsive design works on all screen sizes
-3. **Accessibility**: Screen reader friendly with proper ARIA labels
-4. **Animations**: Smooth animations enhance user experience
-5. **Code**: Clean, maintainable code structure
-
-## 📞 Contact
-
-- **Email**: sharmasj53@gmail.com
-- **LinkedIn**: https://linkedin.com/in/sushantsharma22
-- **GitHub**: https://github.com/sushantsharma22
-- **Phone**: (226) 961-5873
+- **Email**: singh9m3@uwindsor.ca
+- **LinkedIn**: [Ajit Singh](https://linkedin.com/in/ajit-singh-479726214/)
+- **GitHub**: [AjitSingh-Gi1](https://github.com/AjitSingh-Gi1)
 
 ---
-
-**Status**: Website is now fully functional and ready to use!
+&copy; 2024 Ajit Singh. All Rights Reserved.
